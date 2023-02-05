@@ -134,3 +134,45 @@ footer p{
     color: white;
     font-size: 13px;
 }
+
+/*Produtos*/
+.products{
+    padding: 2em;
+    width: 940px;
+    margin: 0 auto;
+}
+.products li{
+    vertical-align: top;
+    padding: 15px;
+    width: 30%;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+.products li h2{
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+.products li p{
+    font-size: 18px;
+    padding: 5px;
+}
+.price{
+    font-weight: bold;
+    font-size: 20px;
+}
+.products li:hover{
+    border-color: #C78C19;
+}
+.products li:hover h2{
+    font-size: 28px;
+}
+.products li:active{
+    border-color: rgba(0, 128, 0, 0.687);
+}
