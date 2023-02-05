@@ -1,0 +1,136 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Parte contendo o css do header */
+header {
+    background: #BBBBBB;
+    padding: 20px;
+}
+
+/*Espaçamento do conteúdo do header*/
+.box {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*como o position da box esta relative, o position do menu absolute fica dentro
+da box*/
+.menu {
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+.menu-item {
+    font-size: 22px;
+    display: inline;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item a:hover {
+    color: #C78C19;
+    font-size: 25px;
+}
+
+/*home main*/
+.banner {
+    width: 100%;
+}
+
+.about {
+    padding: 2em;
+    width: 940px;
+    margin: 0 auto;
+    background: #FEFEFE;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    margin: 0 0 20px 0;
+}
+
+.about img {
+    width: 130px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.about p {
+    margin: 0 0 20px 0;
+}
+
+.about strong {
+    font-weight: bold;
+}
+
+/*Parte location*/
+.location {
+    padding: 2em;
+    background: linear-gradient(#fefefe,#888888);
+}
+.map{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.map iframe {
+    text-align: center;
+}
+/*Parte dos benefícios*/
+.benefits {
+    padding: 3em 0;
+    background: #888888; 
+}
+.benefits-content{
+    width: 640px;
+	margin: 0 auto;
+}
+.benefits img{
+    width: 50%;
+}
+.benefits-list{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.benefits-list li{
+	line-height: 1.5;
+}
+
+.benefits-list li:first-child{
+    font-weight: bold;
+}
+
+.benefits-list li::before{
+    content: "★";
+	color: gold;
+	padding-right: 5px;
+}
+
+.video{
+    padding: 3em 0 0;
+    text-align: center;
+}
+
+/*Footer*/
+footer{
+    background: url(bg.jpg);
+    padding: 2em;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    font-size: 13px;
+}
