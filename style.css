@@ -57,7 +57,7 @@ da box*/
 .title {
     text-align: center;
     font-size: 32px;
-    margin: 0 0 20px 0;
+    padding: 20px 0;
 }
 
 .about img {
@@ -175,4 +175,60 @@ footer p{
 }
 .products li:active{
     border-color: rgba(0, 128, 0, 0.687);
+}
+
+/*Contato*/
+form{
+    width: 940px;
+    margin: 0 auto;
+}
+form label, legend{
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 22px;
+}
+
+.input-padrao{
+    width: 50%;
+    padding: 10px;
+    margin:0 0 10px 0;
+    font-size: 18px;
+}
+
+.horario select{
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+
+.submit{
+    display: block;
+    padding: 1em;
+    margin: 1em auto;
+    background: greenyellow;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+
+}
+
+.submit:hover{
+    background: rgba(2, 134, 2, 0.814);
+    transform: scale(1.1);
+}
+.table-section{
+    width: 940px;
+    margin: 0 auto;
+    padding: 2em;
+}
+table{
+    margin: 0 auto;
+    text-align: center;    
+}
+tr th, td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
 }
